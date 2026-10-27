@@ -40,6 +40,15 @@ class NightDriverTest extends TestCase
         $this->get('/')->assertRedirect();
     }
 
+    public function test_legacy_html_urls_redirect_to_canonical_locales(): void
+    {
+        $this->get('/en.html')->assertRedirect('/en');
+        $this->get('/tr.html')->assertRedirect('/tr');
+        $this->get('/ru.html')->assertRedirect('/ru');
+        $this->get('/az.html')->assertRedirect('/az');
+        $this->get('/index.html')->assertRedirect('/az');
+    }
+
     public function test_sitemap_lists_all_locales(): void
     {
         $this->get('/sitemap.xml')
