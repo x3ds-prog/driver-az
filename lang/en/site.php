@@ -86,7 +86,7 @@ return [
         'submit' => 'Request a call',
         'sending' => 'Sending…',
         'success' => 'Received! We will call you within a few minutes.',
-        'error' => 'Could not send. Call us: +994 70 928 00 31',
+        'error' => 'Could not send. Call us: 051 477 71 72',
         'captcha_failed' => 'Verification failed. Please try again.',
         'fallback_link' => 'WhatsApp did not open? Leave your number',
     ],

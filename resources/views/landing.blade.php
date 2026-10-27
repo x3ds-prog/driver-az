@@ -1,8 +1,8 @@
 @php
-    $phone = '+994709280031';
-    $phonePretty = '+994 70 928 00 31';
+    $phone = '+994514777172';
+    $phonePretty = '051 477 71 72';
     $waText = rawurlencode(__('site.wa_text'));
-    $waLink = "https://wa.me/{$phone}?text={$waText}";
+    $waLink = 'https://wa.me/994514777172?text='.$waText;
     $canonical = route('landing', ['locale' => $locale]);
     $ogImage = url('/assets/og-nightdriver.jpg');
     $zones = __('site.prices.zones');
@@ -47,7 +47,7 @@
             '@type' => 'LocalBusiness',
             'name' => 'NightDriver',
             'description' => __('site.meta.description'),
-            'telephone' => '+994709280031',
+            'telephone' => '+994514777172',
             'url' => $canonical,
             'image' => $ogImage,
             'priceRange' => '10-20 AZN',
@@ -313,7 +313,7 @@
 
 <script>
     const zones = @json($zones);
-    const waBase = @json('https://wa.me/'.$phone.'?text=');
+    const waBase = @json('https://wa.me/994514777172?text=');
     const waIntro = @json(__('site.wa_text'));
     const locale = @json($locale);
     const messages = @json(__('site.order'));

@@ -18,7 +18,7 @@
     <p class="mt-2 max-w-sm text-sm text-slate-400">{{ __('site.not_found.text') }}</p>
     <div class="mt-8 flex flex-col gap-3 sm:flex-row">
         <a href="{{ route('home') }}" class="rounded-2xl bg-blue-600 px-6 py-3.5 font-bold text-white transition hover:bg-blue-500">{{ __('site.not_found.home') }}</a>
-        <a href="tel:+994709280031" class="rounded-2xl bg-white/10 px-6 py-3.5 font-bold text-white ring-1 ring-white/15 transition hover:bg-white/15">+994 70 928 00 31</a>
+        <a href="tel:+994514777172" class="rounded-2xl bg-white/10 px-6 py-3.5 font-bold text-white ring-1 ring-white/15 transition hover:bg-white/15">051 477 71 72</a>
     </div>
 </body>
 </html>

@@ -86,7 +86,7 @@ return [
         'submit' => 'Zəng sifariş et',
         'sending' => 'Göndərilir…',
         'success' => 'Qəbul olundu! Bir neçə dəqiqə ərzində zəng edəcəyik.',
-        'error' => 'Göndərmək alınmadı. Zəng edin: +994 70 928 00 31',
+        'error' => 'Göndərmək alınmadı. Zəng edin: 051 477 71 72',
         'captcha_failed' => 'Yoxlama keçmədi. Yenidən cəhd edin.',
         'fallback_link' => 'WhatsApp açılmadı? Nömrə buraxın',
     ],

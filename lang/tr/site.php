@@ -86,7 +86,7 @@ return [
         'submit' => 'Arama talep et',
         'sending' => 'Gönderiliyor…',
         'success' => 'Alındı! Birkaç dakika içinde arayacağız.',
-        'error' => 'Gönderilemedi. Arayın: +994 70 928 00 31',
+        'error' => 'Gönderilemedi. Arayın: 051 477 71 72',
         'captcha_failed' => 'Doğrulama geçmedi. Tekrar deneyin.',
         'fallback_link' => 'WhatsApp açılmadı mı? Numara bırakın',
     ],
