@@ -47,6 +47,7 @@ class NightDriverTest extends TestCase
         $this->get('/ru.html')->assertRedirect('/ru');
         $this->get('/az.html')->assertRedirect('/az');
         $this->get('/index.html')->assertRedirect('/az');
+        $this->get('/en.html?gclid=abc&utm_source=google')->assertRedirect('/en?gclid=abc&utm_source=google');
     }
 
     public function test_sitemap_lists_all_locales(): void
